@@ -1,11 +1,11 @@
 <template>
   <div class="content">
     <div class="content-head">
-      <type-selector @typeUpdate="update"></type-selector>
-      <search-box></search-box>
+      <type-selector @typeUpdate="typeUpdate"></type-selector>
+      <search-box @searchUpdate="searchUpdate"></search-box>
     </div>
     <div class="content-detail">
-      <List :selectedType="selectedType"></List>
+      <List :selectedType="selectedType" :searchValue="searchValue"></List>
     </div>
   </div>
 </template>
@@ -19,7 +19,8 @@ export default {
   name: "Content",
   data() {
     return {
-      selectedType: ""
+      selectedType: "",
+      searchValue: ""
     }
   },
   components: {
@@ -28,9 +29,13 @@ export default {
     List
   },
   methods: {
-    update(lastType) {
+    typeUpdate(lastType) {
       // console.log(lastType)
       this.selectedType = lastType
+    },
+    searchUpdate(searchValue) {
+      // console.log(searchValue)
+      this.searchValue = searchValue
     }
   }
 }
@@ -46,26 +51,5 @@ export default {
 .content-head {
   display: flex;
   margin-bottom: 6px;
-}
-
-.content-detail {
-  height: 515px;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-  width: 2px;
-}
-
-::-webkit-scrollbar-thumb {
-  width: 2px;
-  height: 50px;
-  background-color: #2ed6e6;
-}
-
-::-webkit-scrollbar-track {
-  height: 500px;
-  background-color: rgba(255, 255, 255, 0.3);
 }
 </style>
