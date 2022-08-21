@@ -7,6 +7,7 @@ export const type = [
 
 export default [
     {
+        id: 1,
         type: '超速',
         desc: '超速行驶',
         carID: '陕M·A3P55',
@@ -14,6 +15,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 2,
         type: '超速',
         desc: '超速行驶',
         carID: '陕M·M4859',
@@ -21,6 +23,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 3,
         type: '黑名单',
         desc: '黑名单车辆驶入',
         carID: '陕M·71587',
@@ -28,6 +31,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 4,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -35,6 +39,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 5,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -42,6 +47,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 6,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -49,6 +55,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 7,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -56,6 +63,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 8,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -63,6 +71,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 9,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -70,6 +79,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 10,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -77,6 +87,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 11,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -84,6 +95,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 12,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',
@@ -91,6 +103,7 @@ export default [
         date: '2021-02-28 18:15:40'
     },
     {
+        id: 13,
         type: '违停',
         desc: '车辆违规停车',
         carID: '陕M·71587',

@@ -1,7 +1,7 @@
 <template>
   <div class="list-content">
     <transition-group name="list" tag="div">
-      <div class="list" v-for="(data, index) in filterData" :key="index" :class="{active: currentIndex===index}" @click="listClick(index)">
+      <div class="list" v-for="(data, index) in filterData" :key="data.id" :class="{active: currentIndex===index}" @click="listClick(index)">
         <!-- <div class="list" v-for="(data, index) in vData" :key="index"> -->
         <div class="list-head">
           <div class="type" :style="typeColor(data.type)">{{data.type}}</div>
